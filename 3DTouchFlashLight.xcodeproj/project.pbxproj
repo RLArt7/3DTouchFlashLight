@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932D46251C4EABD100777C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D46241C4EABD100777C4F /* AppDelegate.swift */; };
+		932D46271C4EABD100777C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D46261C4EABD100777C4F /* ViewController.swift */; };
+		932D462A1C4EABD100777C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932D46281C4EABD100777C4F /* Main.storyboard */; };
+		932D462C1C4EABD100777C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932D462B1C4EABD100777C4F /* Assets.xcassets */; };
+		932D462F1C4EABD100777C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932D462D1C4EABD100777C4F /* LaunchScreen.storyboard */; };
+		932D463A1C4EABD100777C4F /* _DTouchFlashLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D46391C4EABD100777C4F /* _DTouchFlashLightTests.swift */; };
+		932D46451C4EABD100777C4F /* _DTouchFlashLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D46441C4EABD100777C4F /* _DTouchFlashLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		932D46361C4EABD100777C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932D46191C4EABD100777C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932D46201C4EABD100777C4F;
+			remoteInfo = 3DTouchFlashLight;
+		};
+		932D46411C4EABD100777C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932D46191C4EABD100777C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932D46201C4EABD100777C4F;
+			remoteInfo = 3DTouchFlashLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		932D46211C4EABD100777C4F /* 3DTouchFlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchFlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932D46241C4EABD100777C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932D46261C4EABD100777C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932D46291C4EABD100777C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932D462B1C4EABD100777C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932D462E1C4EABD100777C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		932D46301C4EABD100777C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932D46351C4EABD100777C4F /* 3DTouchFlashLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchFlashLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932D46391C4EABD100777C4F /* _DTouchFlashLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DTouchFlashLightTests.swift; sourceTree = "<group>"; };
+		932D463B1C4EABD100777C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932D46401C4EABD100777C4F /* 3DTouchFlashLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchFlashLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932D46441C4EABD100777C4F /* _DTouchFlashLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DTouchFlashLightUITests.swift; sourceTree = "<group>"; };
+		932D46461C4EABD100777C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932D461E1C4EABD100777C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D46321C4EABD100777C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D463D1C4EABD100777C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932D46181C4EABD100777C4F = {
+			isa = PBXGroup;
+			children = (
+				932D46231C4EABD100777C4F /* 3DTouchFlashLight */,
+				932D46381C4EABD100777C4F /* 3DTouchFlashLightTests */,
+				932D46431C4EABD100777C4F /* 3DTouchFlashLightUITests */,
+				932D46221C4EABD100777C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932D46221C4EABD100777C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932D46211C4EABD100777C4F /* 3DTouchFlashLight.app */,
+				932D46351C4EABD100777C4F /* 3DTouchFlashLightTests.xctest */,
+				932D46401C4EABD100777C4F /* 3DTouchFlashLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932D46231C4EABD100777C4F /* 3DTouchFlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				932D46241C4EABD100777C4F /* AppDelegate.swift */,
+				932D46261C4EABD100777C4F /* ViewController.swift */,
+				932D46281C4EABD100777C4F /* Main.storyboard */,
+				932D462B1C4EABD100777C4F /* Assets.xcassets */,
+				932D462D1C4EABD100777C4F /* LaunchScreen.storyboard */,
+				932D46301C4EABD100777C4F /* Info.plist */,
+			);
+			path = 3DTouchFlashLight;
+			sourceTree = "<group>";
+		};
+		932D46381C4EABD100777C4F /* 3DTouchFlashLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				932D46391C4EABD100777C4F /* _DTouchFlashLightTests.swift */,
+				932D463B1C4EABD100777C4F /* Info.plist */,
+			);
+			path = 3DTouchFlashLightTests;
+			sourceTree = "<group>";
+		};
+		932D46431C4EABD100777C4F /* 3DTouchFlashLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932D46441C4EABD100777C4F /* _DTouchFlashLightUITests.swift */,
+				932D46461C4EABD100777C4F /* Info.plist */,
+			);
+			path = 3DTouchFlashLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932D46201C4EABD100777C4F /* 3DTouchFlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932D46491C4EABD100777C4F /* Build configuration list for PBXNativeTarget "3DTouchFlashLight" */;
+			buildPhases = (
+				932D461D1C4EABD100777C4F /* Sources */,
+				932D461E1C4EABD100777C4F /* Frameworks */,
+				932D461F1C4EABD100777C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DTouchFlashLight;
+			productName = 3DTouchFlashLight;
+			productReference = 932D46211C4EABD100777C4F /* 3DTouchFlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932D46341C4EABD100777C4F /* 3DTouchFlashLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932D464C1C4EABD100777C4F /* Build configuration list for PBXNativeTarget "3DTouchFlashLightTests" */;
+			buildPhases = (
+				932D46311C4EABD100777C4F /* Sources */,
+				932D46321C4EABD100777C4F /* Frameworks */,
+				932D46331C4EABD100777C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932D46371C4EABD100777C4F /* PBXTargetDependency */,
+			);
+			name = 3DTouchFlashLightTests;
+			productName = 3DTouchFlashLightTests;
+			productReference = 932D46351C4EABD100777C4F /* 3DTouchFlashLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		932D463F1C4EABD100777C4F /* 3DTouchFlashLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932D464F1C4EABD100777C4F /* Build configuration list for PBXNativeTarget "3DTouchFlashLightUITests" */;
+			buildPhases = (
+				932D463C1C4EABD100777C4F /* Sources */,
+				932D463D1C4EABD100777C4F /* Frameworks */,
+				932D463E1C4EABD100777C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932D46421C4EABD100777C4F /* PBXTargetDependency */,
+			);
+			name = 3DTouchFlashLightUITests;
+			productName = 3DTouchFlashLightUITests;
+			productReference = 932D46401C4EABD100777C4F /* 3DTouchFlashLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932D46191C4EABD100777C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Harel Avikasis";
+				TargetAttributes = {
+					932D46201C4EABD100777C4F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					932D46341C4EABD100777C4F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 932D46201C4EABD100777C4F;
+					};
+					932D463F1C4EABD100777C4F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 932D46201C4EABD100777C4F;
+					};
+				};
+			};
+			buildConfigurationList = 932D461C1C4EABD100777C4F /* Build configuration list for PBXProject "3DTouchFlashLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932D46181C4EABD100777C4F;
+			productRefGroup = 932D46221C4EABD100777C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932D46201C4EABD100777C4F /* 3DTouchFlashLight */,
+				932D46341C4EABD100777C4F /* 3DTouchFlashLightTests */,
+				932D463F1C4EABD100777C4F /* 3DTouchFlashLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932D461F1C4EABD100777C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932D462F1C4EABD100777C4F /* LaunchScreen.storyboard in Resources */,
+				932D462C1C4EABD100777C4F /* Assets.xcassets in Resources */,
+				932D462A1C4EABD100777C4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D46331C4EABD100777C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D463E1C4EABD100777C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932D461D1C4EABD100777C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932D46271C4EABD100777C4F /* ViewController.swift in Sources */,
+				932D46251C4EABD100777C4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D46311C4EABD100777C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932D463A1C4EABD100777C4F /* _DTouchFlashLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D463C1C4EABD100777C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932D46451C4EABD100777C4F /* _DTouchFlashLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932D46371C4EABD100777C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932D46201C4EABD100777C4F /* 3DTouchFlashLight */;
+			targetProxy = 932D46361C4EABD100777C4F /* PBXContainerItemProxy */;
+		};
+		932D46421C4EABD100777C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932D46201C4EABD100777C4F /* 3DTouchFlashLight */;
+			targetProxy = 932D46411C4EABD100777C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		932D46281C4EABD100777C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932D46291C4EABD100777C4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		932D462D1C4EABD100777C4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932D462E1C4EABD100777C4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932D46471C4EABD100777C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932D46481C4EABD100777C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932D464A1C4EABD100777C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DTouchFlashLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarelAvikasis.-DTouchFlashLight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		932D464B1C4EABD100777C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3DTouchFlashLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarelAvikasis.-DTouchFlashLight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		932D464D1C4EABD100777C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3DTouchFlashLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarelAvikasis.-DTouchFlashLightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DTouchFlashLight.app/3DTouchFlashLight";
+			};
+			name = Debug;
+		};
+		932D464E1C4EABD100777C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3DTouchFlashLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarelAvikasis.-DTouchFlashLightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DTouchFlashLight.app/3DTouchFlashLight";
+			};
+			name = Release;
+		};
+		932D46501C4EABD100777C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3DTouchFlashLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarelAvikasis.-DTouchFlashLightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3DTouchFlashLight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		932D46511C4EABD100777C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3DTouchFlashLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarelAvikasis.-DTouchFlashLightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3DTouchFlashLight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932D461C1C4EABD100777C4F /* Build configuration list for PBXProject "3DTouchFlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932D46471C4EABD100777C4F /* Debug */,
+				932D46481C4EABD100777C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932D46491C4EABD100777C4F /* Build configuration list for PBXNativeTarget "3DTouchFlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932D464A1C4EABD100777C4F /* Debug */,
+				932D464B1C4EABD100777C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		932D464C1C4EABD100777C4F /* Build configuration list for PBXNativeTarget "3DTouchFlashLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932D464D1C4EABD100777C4F /* Debug */,
+				932D464E1C4EABD100777C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		932D464F1C4EABD100777C4F /* Build configuration list for PBXNativeTarget "3DTouchFlashLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932D46501C4EABD100777C4F /* Debug */,
+				932D46511C4EABD100777C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932D46191C4EABD100777C4F /* Project object */;
+}
