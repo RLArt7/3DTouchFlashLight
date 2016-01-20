@@ -92,7 +92,6 @@ class ViewController: UIViewController {
             do {
                 try device.lockForConfiguration()
                 if (device.torchMode == AVCaptureTorchMode.On) {
-//                    device.torchMode = AVCaptureTorchMode.Off
                     if(currentValue == 0.001) {
                         valueLabel.text = "\(0)"
                         device.torchMode = AVCaptureTorchMode.Off
